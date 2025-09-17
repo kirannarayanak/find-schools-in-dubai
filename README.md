@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏫 Dubai Schools Accessibility Analysis Platform
 
 A comprehensive data science platform for analyzing school accessibility in Dubai, UAE. This project integrates multiple datasets including schools, communities, healthcare facilities, and metro stations to provide advanced spatial analysis and interactive visualizations.
@@ -191,7 +190,7 @@ MIT License - see LICENSE file for details
 ## 📞 Contact
 
 **Project:** Dubai Schools Accessibility Analysis Platform  
-**Repository:** [https://github.com/kirannarayanak/find-schools-in-dubai.git](https://github.com/kirannarayanak/find-schools-in-dubai.git)  
+**Repository:** https://github.com/kirannarayanak/find-schools-in-dubai.git  
 **Dashboard:** http://localhost:8053 (when running)
 
 ---
@@ -204,6 +203,3 @@ MIT License - see LICENSE file for details
 - ✅ **Phase 4:** GitHub Repository - Code and documentation published
 
 **Ready for production use and further development!** 🚀
-=======
-# find-schools-in-dubai
->>>>>>> 81b0b406cb82ea62d224f10a65924855b59038f5
