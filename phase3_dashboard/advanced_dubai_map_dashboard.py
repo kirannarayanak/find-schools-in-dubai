@@ -332,42 +332,7 @@ class AdvancedDubaiMapDashboard:
         # Create base map with Dubai-specific styling
         fig = go.Figure()
         
-        # Create a large dark overlay covering the entire map, then cut out Dubai
-        # This creates the effect of Dubai being in color while everything else is dark
-        
-        # Large rectangle covering the entire visible area
-        dark_overlay = [
-            [20.0, 50.0], [20.0, 60.0], [30.0, 60.0], [30.0, 50.0], [20.0, 50.0]
-        ]
-        
-        # Dubai boundary (smaller rectangle to be cut out)
-        dubai_boundary = [
-            [24.8, 54.8], [24.8, 55.6], [25.4, 55.6], [25.4, 54.8], [24.8, 54.8]
-        ]
-        
-        # Add dark overlay covering everything
-        fig.add_trace(go.Scattermapbox(
-            lat=[point[0] for point in dark_overlay],
-            lon=[point[1] for point in dark_overlay],
-            mode='lines',
-            line=dict(color='rgba(0, 0, 0, 0.8)', width=0),
-            fill='toself',
-            fillcolor='rgba(0, 0, 0, 0.7)',
-            name='Dark Overlay',
-            showlegend=False
-        ))
-        
-        # Add Dubai boundary as a transparent cutout
-        fig.add_trace(go.Scattermapbox(
-            lat=[point[0] for point in dubai_boundary],
-            lon=[point[1] for point in dubai_boundary],
-            mode='lines',
-            line=dict(color='rgba(0, 212, 255, 0.8)', width=2),
-            fill='toself',
-            fillcolor='rgba(0, 0, 0, 0)',  # Transparent fill to show the map underneath
-            name='Dubai Area',
-            showlegend=False
-        ))
+        # No overlay traces - using map style to control appearance
         
         # Add school locations with sophisticated styling
         fig.add_trace(go.Scattermapbox(
