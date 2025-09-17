@@ -24,9 +24,9 @@ class AdvancedDubaiMapDashboard:
         
     def load_data(self):
         """Load comprehensive integrated data"""
-        print("📊 Loading comprehensive integrated data...")
+        print("Loading comprehensive integrated data...")
         self.df = pd.read_csv(self.data_path)
-        print(f"✅ Loaded {len(self.df)} schools with complete profiles")
+        print(f"Loaded {len(self.df)} schools with complete profiles")
         
         # Create enhanced data structure
         self.df['healthcare_accessibility_tier'] = pd.cut(
@@ -72,7 +72,7 @@ class AdvancedDubaiMapDashboard:
     
     def create_insights(self):
         """Create comprehensive insights"""
-        print("🧠 Creating comprehensive insights...")
+        print("Creating comprehensive insights...")
         
         self.insights = {
             'total_schools': len(self.df),
@@ -114,7 +114,7 @@ class AdvancedDubaiMapDashboard:
             }
         }
         
-        print("✅ Insights created!")
+        print("Insights created!")
         return self.insights
     
     def create_modern_kpi_cards(self):
@@ -300,7 +300,7 @@ class AdvancedDubaiMapDashboard:
                 
                 # Reset Button
                 html.Button(
-                    "🔄 Reset Filters",
+                    "Reset Filters",
                     id="reset-filters",
                     style={
                         'background': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
@@ -332,22 +332,7 @@ class AdvancedDubaiMapDashboard:
         # Create base map with Dubai-specific styling
         fig = go.Figure()
         
-        # Add Dubai boundary (simplified polygon)
-        dubai_boundary = [
-            [25.0, 55.0], [25.0, 55.5], [25.3, 55.5], [25.3, 55.0], [25.0, 55.0]
-        ]
-        
-        # Add Dubai boundary as a filled area
-        fig.add_trace(go.Scattermapbox(
-            lat=[point[0] for point in dubai_boundary],
-            lon=[point[1] for point in dubai_boundary],
-            mode='lines',
-            line=dict(color='rgba(0, 212, 255, 0.3)', width=3),
-            fill='toself',
-            fillcolor='rgba(0, 212, 255, 0.1)',
-            name='Dubai Boundary',
-            showlegend=False
-        ))
+        # No custom boundary - using Google Maps-style natural boundaries
         
         # Add school locations with sophisticated styling
         fig.add_trace(go.Scattermapbox(
@@ -424,10 +409,10 @@ class AdvancedDubaiMapDashboard:
             showlegend=False
         ))
         
-        # Update layout with sophisticated Dubai-focused styling
+        # Update layout with Google Maps-style Dubai-focused styling
         fig.update_layout(
             mapbox=dict(
-                style="carto-darkmatter",  # Dark theme for better contrast
+                style="open-street-map",  # Google Maps-style coloring
                 center=dict(lat=25.2048, lon=55.2708),
                 zoom=10.5,
                 bearing=0,
@@ -435,15 +420,15 @@ class AdvancedDubaiMapDashboard:
                 accesstoken="pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw"  # Public token for interactivity
             ),
             title=dict(
-                text="🏫 Dubai Schools Interactive Accessibility Map",
+                text="Dubai Schools Interactive Accessibility Map",
                 font=dict(size=28, color='#00d4ff', family='Inter'),
                 x=0.5,
                 y=0.95
             ),
             height=750,
             margin=dict(l=0, r=0, t=80, b=0),
-            paper_bgcolor='rgba(0,0,0,0)',
-            plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='black',  # Black background
+            plot_bgcolor='black',   # Black background
             font=dict(family="Inter, sans-serif", color="white"),
             showlegend=False
         )
@@ -618,7 +603,7 @@ class AdvancedDubaiMapDashboard:
     
     def create_dashboard_layout(self):
         """Create the sophisticated dashboard layout"""
-        print("🎨 Creating sophisticated dashboard layout...")
+        print("Creating sophisticated dashboard layout...")
         
         # Load data and create insights
         self.load_data()
@@ -715,7 +700,7 @@ class AdvancedDubaiMapDashboard:
     
     def create_dashboard_app(self):
         """Create and configure the sophisticated Dash app"""
-        print("🚀 Creating sophisticated Dubai map dashboard...")
+        print("Creating sophisticated Dubai map dashboard...")
         
         # Initialize Dash app
         self.app = Dash(__name__)
@@ -729,7 +714,7 @@ class AdvancedDubaiMapDashboard:
         # Add callbacks for interactivity
         self.add_callbacks()
         
-        print("✅ Sophisticated dashboard app created!")
+        print("Sophisticated dashboard app created!")
         return self.app
     
     def add_callbacks(self):
@@ -791,15 +776,15 @@ class AdvancedDubaiMapDashboard:
     
     def run_dashboard(self, debug=True, port=8053):
         """Run the dashboard"""
-        print("🌐 Starting sophisticated Dubai map dashboard server...")
-        print(f"📱 Dashboard will be available at: http://localhost:{port}")
-        print("🛑 Press Ctrl+C to stop the server")
+        print("Starting sophisticated Dubai map dashboard server...")
+        print(f"Dashboard will be available at: http://localhost:{port}")
+        print("Press Ctrl+C to stop the server")
         
         self.app.run(debug=debug, port=port)
 
 def main():
     """Main execution function"""
-    print("🚀 PHASE 3: SOPHISTICATED DUBAI MAP DASHBOARD CREATION")
+    print("PHASE 3: SOPHISTICATED DUBAI MAP DASHBOARD CREATION")
     print("=" * 60)
     
     # Initialize dashboard creator
