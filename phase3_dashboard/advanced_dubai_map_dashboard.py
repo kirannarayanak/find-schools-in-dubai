@@ -332,7 +332,22 @@ class AdvancedDubaiMapDashboard:
         # Create base map with Dubai-specific styling
         fig = go.Figure()
         
-        # No custom boundary - using Google Maps-style natural boundaries
+        # Add Dubai boundary polygon to highlight Dubai area
+        dubai_boundary = [
+            [24.8, 54.8], [24.8, 55.6], [25.4, 55.6], [25.4, 54.8], [24.8, 54.8]
+        ]
+        
+        # Add Dubai boundary as a filled area to highlight Dubai
+        fig.add_trace(go.Scattermapbox(
+            lat=[point[0] for point in dubai_boundary],
+            lon=[point[1] for point in dubai_boundary],
+            mode='lines',
+            line=dict(color='rgba(255, 255, 255, 0.8)', width=2),
+            fill='toself',
+            fillcolor='rgba(255, 255, 255, 0.1)',
+            name='Dubai Area',
+            showlegend=False
+        ))
         
         # Add school locations with sophisticated styling
         fig.add_trace(go.Scattermapbox(
@@ -409,10 +424,10 @@ class AdvancedDubaiMapDashboard:
             showlegend=False
         ))
         
-        # Update layout with Google Maps-style Dubai-focused styling
+        # Update layout with dark theme - Dubai highlighted, rest black
         fig.update_layout(
             mapbox=dict(
-                style="open-street-map",  # Google Maps-style coloring
+                style="dark",  # Dark theme - areas outside Dubai will be black
                 center=dict(lat=25.2048, lon=55.2708),
                 zoom=10.5,
                 bearing=0,
