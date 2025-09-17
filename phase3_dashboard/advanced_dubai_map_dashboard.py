@@ -332,19 +332,39 @@ class AdvancedDubaiMapDashboard:
         # Create base map with Dubai-specific styling
         fig = go.Figure()
         
-        # Add Dubai boundary polygon to highlight Dubai area
+        # Create a large dark overlay covering the entire map, then cut out Dubai
+        # This creates the effect of Dubai being in color while everything else is dark
+        
+        # Large rectangle covering the entire visible area
+        dark_overlay = [
+            [20.0, 50.0], [20.0, 60.0], [30.0, 60.0], [30.0, 50.0], [20.0, 50.0]
+        ]
+        
+        # Dubai boundary (smaller rectangle to be cut out)
         dubai_boundary = [
             [24.8, 54.8], [24.8, 55.6], [25.4, 55.6], [25.4, 54.8], [24.8, 54.8]
         ]
         
-        # Add Dubai boundary as a filled area to highlight Dubai
+        # Add dark overlay covering everything
+        fig.add_trace(go.Scattermapbox(
+            lat=[point[0] for point in dark_overlay],
+            lon=[point[1] for point in dark_overlay],
+            mode='lines',
+            line=dict(color='rgba(0, 0, 0, 0.8)', width=0),
+            fill='toself',
+            fillcolor='rgba(0, 0, 0, 0.7)',
+            name='Dark Overlay',
+            showlegend=False
+        ))
+        
+        # Add Dubai boundary as a transparent cutout
         fig.add_trace(go.Scattermapbox(
             lat=[point[0] for point in dubai_boundary],
             lon=[point[1] for point in dubai_boundary],
             mode='lines',
-            line=dict(color='rgba(255, 255, 255, 0.8)', width=2),
+            line=dict(color='rgba(0, 212, 255, 0.8)', width=2),
             fill='toself',
-            fillcolor='rgba(255, 255, 255, 0.1)',
+            fillcolor='rgba(0, 0, 0, 0)',  # Transparent fill to show the map underneath
             name='Dubai Area',
             showlegend=False
         ))
@@ -424,10 +444,10 @@ class AdvancedDubaiMapDashboard:
             showlegend=False
         ))
         
-        # Update layout with dark theme - Dubai highlighted, rest black
+        # Update layout with light theme - Dubai in color, rest will be darkened
         fig.update_layout(
             mapbox=dict(
-                style="dark",  # Dark theme - areas outside Dubai will be black
+                style="open-street-map",  # Light theme with Google Maps-style colors
                 center=dict(lat=25.2048, lon=55.2708),
                 zoom=10.5,
                 bearing=0,
