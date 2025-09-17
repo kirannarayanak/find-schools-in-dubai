@@ -1,0 +1,17 @@
+{
+  "total_schools": 170,
+  "total_communities_analyzed": 226,
+  "avg_nearest_community_distance": 3.948899833181729,
+  "schools_within_1km_community": 22,
+  "schools_within_2km_community": 46,
+  "schools_within_5km_community": 122,
+  "avg_communities_within_1km": 0.3058823529411765,
+  "avg_communities_within_2km": 1.2588235294117647,
+  "avg_communities_within_5km": 7.894117647058824,
+  "avg_population_within_1km": 5354.676470588235,
+  "avg_population_within_2km": 24372.1,
+  "avg_population_within_5km": 156453.2,
+  "avg_community_accessibility_score": 3.7776470588235296,
+  "avg_community_density_score": 1.9,
+  "avg_overall_community_score": 3.026588235294117
+}

@@ -1,0 +1,171 @@
+school_name,location,latitude,longitude,grades_2014_15,students_2014_15,year_established_in_dubai,type_of_school
+Adab Iranian Private School - Boys,Al Qusais,25.276381,55.368653,KG1-G12,260.0,1989.0,Iranian
+Adab Iranian Private School - Girls,Al Qusais,25.276431,55.369036,KG1-G12,192.0,1989.0,Iranian
+Al Ameen Private School,Al Nahda,25.290983,55.378581,FS1-G10,613.0,1992.0,UK
+Al Arqam Private School,Al Barsha ,25.108514,55.189206,KG1-G12,922.0,1990.0,MOE
+Al Basateen Kindergarten - Al Khawaneej,Al Khawaneej,25.231106,55.522533,KG1-KG2,140.0,2003.0,MOE
+Al Diyafah High School,Al Nahda,25.290128,55.374764,FS1-G12,1547.0,1982.0,UK
+Al Eman Private School,Al Rashidiya,25.230481,55.389272,KG1-G9,494.0,1973.0,MOE
+Al Ittihad Private School - Al Mamzar,Al Mamzar,25.299889,55.344353,KG1-G12,2065.0,1975.0,US
+Al Ittihad Private School - Jumeirah,Al Safa,25.180714,55.241033,KG1-G12,1749.0,1998.0,US
+Al Khaleej National School,Al Garhoud,25.234294,55.352911,KG1-G12,2075.0,1992.0,US
+Al Maaref Private School,Al Qusais,25.286192,55.367858,KG1-G12,1648.0,1987.0,US
+Al Mawakeb School - Al Barsha,Al Barsha,25.104503,55.201706,KG1-G12,2515.0,1998.0,US
+Al Mawakeb School - Al Garhoud,Al Garhoud,25.234675,55.358314,KG1-G12,2429.0,1995.0,US
+Al Rashid Al Saleh Private School,Oud Metha,25.237524,55.317428,KG1-G12,2583.0,1973.0,MOE
+Al Sadiq Islamic English School,Al Qusais,25.265897,55.385764,FS1-G10,1896.0,1989.0,UK
+Al Safa Private School,Al Safa ,25.178439,55.238414,FS1-G6,748.0,2005.0,UK
+Al Salam Private School,Al Nahda,25.288675,55.369481,FS1-G11,1174.0,1989.0,UK
+Al Shorouq Private School,Jumeirah First,25.213097,55.2553,KG1-G12,2096.0,1986.0,MOE
+Ambassador Kindergarten,Al Mankhool,25.246404,55.294147,KG1-KG2,293.0,2012.0,Kindergarten
+Al Mizhar American Academy Private School for Girls,Al Mizhar,25.238386,55.428675,KG1-G12,664.0,2005.0,US
+American International School,Al Qusais,25.283458,55.368764,KG1-G12,2349.0,2003.0,US
+American School of Dubai,Al Barsha ,25.10029,55.182186,KG1-G12,1627.0,1973.0,US
+Apple International School,Al Qusais,25.278833,55.374983,FS1-G7,2315.0,1994.0,UK
+Arab Unity School,Al Mizhar,25.236325,55.429928,FS1-G12,3331.0,1975.0,UK
+Bradenton Preparatory Academy,Dubai Sports City,25.035053,55.22865,KG1-G12,685.0,2009.0,US
+Buds Public School,Al Muhaisnah,25.240664,55.407408,KG1-G12,896.0,1986.0,Indian(CBSE)
+Cambridge International School,Al Garhoud,25.235847,55.350853,FS1-G12,2583.0,2004.0,UK
+Collegiate American School,Umm Suqeim,25.150553,55.207817,KG1-G9,817.0,2011.0,US
+Crescent English School,Al Qusais,25.281597,55.367514,KG1-G12,1436.0,1984.0,Indian(CBSE)
+Dar Al Marefa Private School,Mirdif,25.227722,55.431953,KG1-11,529.0,2008.0,IB
+Deira International School,Ras Al Khor,25.212747,55.373747,FS1-G12,1493.0,2005.0,UK/IB
+Deira Private School,Al Twar,25.242522,55.3984,FS1-G5,238.0,2009.0,UK
+Delhi Private School Dubai,Jebel Ali,25.039236,55.121742,KG1-G12,3539.0,2003.0,Indian(CBSE)
+GEMS Dubai American Academy,Al Barsha ,25.114397,55.207717,KG1-G12,2312.0,1997.0,US/IB
+Dubai Arab American Private School,Al Muhaisnah,25.244592,55.417228,KG1-G12,1253.0,2006.0,US
+Dubai British School,Emirates  Hills,25.055206,55.17015,FS1-G12,1045.0,2005.0,UK
+Dubai Carmel School,Al Nahda,25.296431,55.379344,FS1-G11,905.0,1982.0,UK
+Dubai College,Al Sufouh,25.110194,55.169042,G6-G12,850.0,1978.0,UK
+Dubai English Speaking College,Dubai Academic City,25.105911,55.399886,G6-G12,1130.0,2005.0,UK
+Dubai English Speaking School,Umm Hurair,25.238244,55.317725,FS1-G5,971.0,1973.0,UK
+Dubai Gem Private School,Oud Metha,25.235942,55.316167,FS1-G12,1354.0,1983.0,UK
+Dubai International Academy,Emirates  Hills,25.077917,55.179,FS1-G12,2033.0,2005.0,IB
+Dubai International School - Al Garhoud,Al Garhoud,25.248367,55.341864,KG1-G12,2458.0,1985.0,US
+Dubai International School - Al Quoz,Al Quoz,25.170089,55.262378,KG1-G12,2179.0,1999.0,US
+Dubai Modern Education School,Al Mizhar,25.238822,55.427392,KG1-G12,2668.0,1996.0,MOE/US
+GEMS Modern Academy,Nad Al Sheba,25.153603,55.376153,KG1-12,3780.0,2004.0,Indian(CISCE)
+Dubai National School - Al Barsha,Al Barsha ,25.106917,55.192436,KG1-G12,2843.0,1988.0,US
+Dubai National School - Al Twar,Al Twar,25.278803,55.368489,KG1-G12,1957.0,2000.0,US
+Dubai Police Kindergarten - Deira,Al Waheda,25.286906,55.338789,KG1-KG2,95.0,2000.0,MOE
+Dubai Scholars Private School,Al Qusais,25.280228,55.364739,FS1-G11,1572.0,1994.0,UK
+Dubai Women's College High School,Al Nahda,25.285,55.376523,G9-G12,58.0,2012.0,US
+Emirates English Speaking School,Al Safa ,25.177928,55.241281,KG1-G12,1848.0,1980.0,Indian(CBSE)
+Emirates International School - Jumeirah,Umm Al Sheif,25.131186,55.203358,FS1-G12,1893.0,1991.0,IB
+Emirates International School - Meadows,Emirates  Hills,25.064758,55.156161,FS1-G12,1609.0,2006.0,IB
+English Language Private School,Umm Hurair,25.241956,55.317775,FS1-G11,1528.0,1982.0,UK
+GEMS Jumeirah Primary School,Al Safa,25.175947,55.238661,FS1-G5,1452.0,1994.0,UK
+GEMS Royal Dubai School,Al Mizhar,25.237303,55.438586,FS1-G5,1128.0,2005.0,UK
+GEMS Wellington Academy - DSO,Dubai Silicon Oasis,25.118243,55.388303,FS1-G12,3524.0,2011.0,UK
+GEMS Wellington International School,Al Sufouh,25.112042,55.183447,FS1-G12,2408.0,2005.0,UK
+GEMS Wellington Primary School,Al Satwa,25.211233,55.271647,FS1-G5,1145.0,2007.0,UK
+GEMS Winchester School,Oud Metha,25.23142,55.321741,FS1-G8,3481.0,2011.0,UK
+GEMS World Academy,Al Barsha ,25.082225,55.219567,KG1-G12,1948.0,2008.0,IB
+Ambassador School,Al Mankhool,25.246326,55.288267,G1-G10,695.0,2010.0,Indian(ICSE)
+Grammar School,Al Garhoud,25.235469,55.351983,FS1-G11,1041.0,1974.0,UK
+Greenfield Community School,Green Community,24.983019,55.183838,KG1-G12,1241.0,2007.0,IB
+Greenwood International School,Al Muhaisnah ,25.244239,55.4183,KG1-G12,1023.0,1992.0,UK
+Gulf Indian High School,Al Garhoud,25.236617,55.349567,KG1-G12,2530.0,1979.0,Indian(CBSE)
+Gulf Model School,Al Muhaisnah ,25.277317,55.407858,KG1-G12,3130.0,1982.0,Indian(CBSE)
+His Highness Shaikh Rashid Al Maktoum Pakistani School,Al Qusais,25.28525,55.369953,KG1-G12,1549.0,1995.0,Pakistani
+Horizon English School,Al Wasl,25.189889,55.250028,FS1-G5,654.0,1989.0,UK
+Institute of Applied Technology,Al Qusais,25.271156,55.396703,G9-G12,913.0,2005.0,IAT
+International Academic School,Al Warqaa ,25.186381,55.403486,KG1-G12,987.0,2006.0,MOE/US
+International School of Arts and Sciences,Al Warqaa ,25.189861,55.401889,KG1-G12,843.0,2006.0,US
+Islamic School for Education and Training,Al Muhaisnah,25.252208,55.416992,KG1-G11,718.0,1982.0,MOE
+Japanese School in Dubai,Al Wasl,25.192697,55.254131,G1-G9,137.0,1980.0,Japanese
+Jebel Ali Primary School,Jebel Ali,25.034761,55.117981,KG1-G5,626.0,1978.0,UK
+JSS International School,Al Barsha ,25.075028,55.215356,KG1-G12,1783.0,2009.0,Indian(ICSE)
+JSS Private School,Al Safa,25.191845,55.252894,KG1-G11,1898.0,2011.0,Indian(CBSE)
+Jumeira Baccalaureate School,Jumeirah First,25.218637,55.259723,KG1-G12,823.0,2010.0,UK/IB
+Jumeirah College,Al Safa ,25.176394,55.235789,G6-G12,1110.0,2000.0,UK
+Jumeirah English Speaking School,Al Safa ,25.179742,55.243147,FS1-G5,698.0,1976.0,UK
+Jumeirah English Speaking School - Arabian Ranches,Arabian Ranches,25.056689,55.272661,FS1-G12,1370.0,2005.0,UK/IB
+K12 International Academy,Knowledge Village,25.101772,55.160615,KG2-G12,344.0,2008.0,US
+Khadija Al Kobra Iranian School for Girls,Al Karama,25.252825,55.307217,G1-G12,395.0,2000.0,Iranian
+Kings' Dubai,Umm Suqeim,25.135958,55.196242,FS1-G7,866.0,2004.0,UK
+Latifa School for Girls,Nad Al Sheba,25.149325,55.326118,KG1-G12,626.0,1982.0,UK
+Little Flowers English School,Hor Al Anz,25.282439,55.336397,KG1-G6,947.0,1984.0,Indian(CBSE)
+Lycee Francais International School,Dubai Academic City,25.241403,55.312731,KG1-G12,1948.0,2005.0,French
+Lycee Georges Pompidou High School,Dubai Academic City,25.104978,55.395858,G1-G12,1756.0,2005.0,French
+Lycee Georges Pompidou Primary School,Oud Metha,25.233711,55.316025,KG1-KG2,252.0,1998.0,French
+Lycee Libanais Francophone Prive,Al Muhaisnah,25.275092,55.410419,KG1-G12,962.0,2004.0,French
+Mirdif Private School,Al Mizhar,25.237383,55.437061,KG1-G9,747.0,1995.0,US
+National Charity School,Al Garhoud,25.238522,55.345831,G1-G12,5333.0,1984.0,MOE
+New Academy School,Al Raffa,25.250636,55.284283,KG1-G12,995.0,1990.0,US
+New Indian Model School,Al Garhoud,25.237008,55.347017,KG1-G12,6973.0,1980.0,Indian(CBSE)
+New World Private School,Al Twar ,25.265406,55.374644,KG1-G12,1854.0,2005.0,MOE
+Nibras International School,Green Community,25.000017,55.171757,KG1-G12,854.0,2005.0,US
+North American International School,Al Mizhar,25.236083,55.432139,KG1-G12,499.0,2007.0,US
+GEMS Our Own English High School,Al Warqaa ,25.193874,55.426669,KG1-G12,10169.0,1972.0,Indian(CBSE)
+Our Own High School - Dubai,Al Warqaa,25.190892,55.400567,G1-G12,4734.0,2005.0,Indian(CBSE)
+GEMS Our Own Indian School,Al Quoz,25.171781,55.260647,KG1-G12,3643.0,1991.0,Indian(CBSE)
+Pakistan Education Academy,Umm Hurair,25.241917,55.316989,KG1-G12,1689.0,1973.0,Pakistani
+Philadelphia Private School,Al Muhaisnah,25.278906,55.402194,KG1-G12,1402.0,2006.0,US
+Pristine Private School,Al Nahda,25.293458,55.375039,FS1-G12,1529.0,1992.0,UK
+Queen International School,Hor Al Anz ,25.283108,55.348792,FS1-G11,1179.0,1998.0,UK
+Raffles International School - South Campus,Umm Suqeim,25.136467,55.194503,FS1-G7,1267.0,2008.0,UK
+Raffles World Academy,Umm Suqeim,25.14035,55.196792,KG1-G12,1821.0,2008.0,UK/IB
+Rajagiri International School,Al Warqaa ,25.186925,55.402725,KG1-G8,1339.0,2008.0,Indian(CBSE)
+Rashid School for Boys,Nad Al Sheba,25.181331,55.313416,KG1-G12,622.0,1986.0,UK
+Regent International School,Emirates  Hills,25.088125,55.173753,FS1-G12,1414.0,1992.0,UK
+Repton School Dubai,Nad Al Sheba,25.145306,55.378833,FS1-G12,2060.0,2007.0,UK/IB
+Russian International School,Al Muhaisnah,25.282619,55.404694,KG1-G11,426.0,1997.0,Russian
+Salman Al Farsi Iranian School,Al Qusais,25.280592,55.370039,G1-G12,438.0,2000.0,Iranian
+School of Modern Skills,Al Muhaisnah,25.244356,55.416036,KG1-G12,1518.0,2006.0,US
+Sharjah American International School,Al Warqaa,25.185614,55.403222,KG1-G12,1563.0,2005.0,US
+St. Mary's Catholic High School,Umm Hurair,25.240369,55.317628,KG2-G11,1928.0,1973.0,UK
+Star International School - Al Twar,Al Twar,25.259086,55.385236,FS1-G8,528.0,2000.0,UK
+Star International School - Mirdif,Mirdif,25.223019,55.417214,FS1-G5,469.0,2008.0,UK
+Horizon International Schoool,Umm Al Sheif,25.132825,55.204881,FS1-G9,861.0,2008.0,UK
+The Central School,Al Nahda,25.291533,55.375722,KG1-G12,3292.0,1981.0,Indian(CBSE)
+The Children's Garden,Al Barsha ,25.094577,55.211878,KG1-KG2,45.0,2012.0,Kindergarten
+The City School International,Nad Al Hamar,25.193606,55.388731,FS1-G10,753.0,1989.0,UK
+The Elite English School,Al Waheda,25.288842,55.340475,KG1-G12,1698.0,1993.0,Indian(CBSE)
+The English College - Dubai,Al Safa,25.16905,55.237469,G6-G12,581.0,1992.0,UK
+The Indian Academy,Al Muhaisnah,25.257534,55.386361,KG1-G7,719.0,2012.0,Indian(ICSE)
+The Indian High School,Oud Metha,25.240542,55.315133,G5-G12,5896.0,1961.0,Indian(CBSE)
+The Indian High School - Branch,Al Garhoud,25.248436,55.340581,KG1-G4,4195.0,1988.0,Indian(CBSE)
+The Indian International School,Dubai Silicon Oasis,25.115873,55.375965,KG1-G7,1858.0,2011.0,Indian(CBSE)
+The International School of Choueifat - DIP,Dubai Investment Park,24.983802,55.15553,KG1-G10,2190.0,2012.0,SABIS (UK/US)
+The International School of Choueifat - Dubai,Al Sufouh,25.107181,55.171625,KG1-G12,4040.0,1994.0,SABIS (UK/US)
+The Kindergarten Starters,Al Garhoud,25.247964,55.339353,KG1-G5,5511.0,1982.0,Indian(CBSE)
+The Millennium School,Al Qusais,25.286631,55.367103,KG1-G12,2954.0,2000.0,Indian(CBSE)
+The Oxford School,Al Muhaisnah,25.281228,55.402192,FS1-G12,2128.0,1988.0,UK
+The Philippine School,Al Twar,25.244733,55.393747,KG1-G10,1975.0,2008.0,Philippine
+Sheikh Rashid Bin Saeed Islamic Institute,Al Satwa,25.215886,55.269667,G6-G12,120.0,2003.0,MOE
+The School of Research Science,Al Qusais,25.20083,55.439205,FS1-G12,2699.0,2003.0,UK
+The Sheffield Private School,Al Qusais,25.293372,55.385719,FS1-G11,1643.0,2004.0,UK
+The Westminster School,Al Qusais,25.283053,55.370633,KG1-G12,5034.0,1988.0,UK
+The Winchester School,Jebel Ali,25.040094,55.120922,FS1-G12,3617.0,2003.0,UK
+Towheed Iranian School for Boys,Al Quoz,25.170393,55.262097,KG1-G12,798.0,1958.0,Iranian
+Towheed Iranian School for Girls,Al Karama,25.252983,55.306842,G1-G12,279.0,1958.0,Iranian
+United International Private School,Al Muhaisnah,25.277289,55.408747,KG1-G10,1829.0,1992.0,Philippine
+Universal American School,Ras Al Khor,25.221422,55.365489,KG1-G12,1402.0,2005.0,US/IB
+Uptown School,Mirdif,25.210243,55.423257,KG1-G10,1222.0,2012.0,IB
+Delhi Private School Academy,Dubai Academic City,25.105576,55.402396,KG1-G7,321.0,2013.0,Indian(ICSE)
+GEMS New Millennium School ,Al Khail ,25.123782,55.257187,KG1-G7,839.0,2013.0,Indian(CBSE)
+Sabari Indian School ,Al Waheda,25.289783,55.341133,KG1-G6,437.0,2013.0,Indian(CBSE)
+Springdales School,Al Quoz,25.149543,55.253366,KG2-G8,899.0,2013.0,Indian(CBSE)
+Victory Heights Primary School,Dubai Sports City,25.035148,55.222489,FS1-G5,515.0,2013.0,UK
+Foremarke School,Dubailand,25.079423,55.242616,FS1-G3,191.0,2013.0,UK
+International Concept for Education,Meydan,25.153909,55.298824,KG1-G2,159.0,2013.0,French/IB
+GEMS Wellington Academy - Al Khail,Al Khail ,25.123129,55.254493,FS1-G7,820.0,2013.0,UK
+Oasis School,Al Safa,25.178509,55.238012,KG1-G5,124.0,2013.0,UK
+GEMS International School - Al Khail,Al Khail ,25.122362,55.255576,KG1-G8,567.0,2013.0,IB
+Credence High School ,Al Quoz,25.152316,55.249429,KG1-G6,348.0,2014.0,Indian
+Bilva Indian School ,Al Qusais,25.277453,55.366716,KG1-G6,381.0,2014.0,Indian
+GEMS FirstPoint School,Dubai land,25.089952,55.376415,FS1-G7,308.0,2014.0,UK
+Kings Nad Al Sheba,Nad Al Shibba,25.152316,55.380192,FS1-G5,67.0,2014.0,UK
+Ontario International Canadian School ,Mirdif,25.221404,55.426068,KG1-G6,109.0,2014.0,Canadian
+Nord Anglia International School Dubai,Al Barsha,25.062004,55.227242,FS1-G7,550.0,2014.0,UK
+Kings' Al Barsha,Al Barsha,25.086221,55.251102,FS1-G8,546.0,2014.0,UK
+Gems Metropole School,Motor City,25.042429,55.243657,FS1-G7,934.0,2014.0,UK
+Safa Community School,Dubai land,25.061716,55.248441,FS1-G7,101.0,2014.0,UK
+Dovecote Green Primary ,Dubai Investment Park,24.997085,55.155938,KG1,4.0,2014.0,UK
+Capital School,Al Qusais,25.284385,55.371958,FS1-G5,264.0,2014.0,UK
+Swiss International Scientifc School ,Health Care City,25.219684,55.32988,KG1-12,,2015.0,IB /Swiss 
+Hartland Internaitnal School ,Meydan,25.177947,55.274873,KG1-13,,2015.0,UK/IB
+St Mary High Catholic School -branch,Muhaisana,25.28038,55.40825,KG1-13,,2015.0,UK
+Dubai British School - Jumairah Park ,Jumairah Park,25.298406,55.451661,KG1-13,,2015.0,UK
+Ranches Primary School ,Arabian Ranches,25.031625,55.270907,FS1 -G6,,2015.0,UK

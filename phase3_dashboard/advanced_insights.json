@@ -1,0 +1,340 @@
+{
+  "total_schools": 170,
+  "total_communities": 226,
+  "total_healthcare": 2312,
+  "total_metro": 540,
+  "healthcare_distances": {
+    "mean": 0.15888761627629402,
+    "median": 0.0755067706350092,
+    "std": 0.3205282309077748,
+    "min": 0.0039270251611087,
+    "max": 3.6189396715420257
+  },
+  "metro_distances": {
+    "mean": 2.876598792247687,
+    "median": 1.8846940936332963,
+    "std": 3.0578200805106306,
+    "min": 0.1270028386083805,
+    "max": 14.831110607640156
+  },
+  "community_distances": {
+    "mean": 3.948899833181729,
+    "median": 3.237968497635374,
+    "std": 3.0234165398909845,
+    "min": 0.2625730857277942,
+    "max": 15.169963420153252
+  },
+  "healthcare_tiers": {
+    "excellent": 163,
+    "good": 4,
+    "moderate": 2,
+    "poor": 1
+  },
+  "metro_tiers": {
+    "excellent": 47,
+    "good": 43,
+    "moderate": 53,
+    "poor": 27
+  },
+  "school_type_analysis": {
+    "nearest_healthcare_distance_km_x": {
+      "Canadian": 0.2234975213578329,
+      "French": 0.13379763525497287,
+      "French/IB": 0.1136930619503453,
+      "IAT": 0.7122365751256382,
+      "IB": 0.22624787029130108,
+      "IB /Swiss ": 0.419217315853045,
+      "Indian": 0.0895035965649761,
+      "Indian(CBSE)": 0.10365998830377919,
+      "Indian(CISCE)": 0.062211509854307,
+      "Indian(ICSE)": 0.4387815184633851,
+      "Iranian": 0.09858888418149288,
+      "Japanese": 0.0332289717232961,
+      "Kindergarten": 0.11702585916320385,
+      "MOE": 0.13852194556841863,
+      "MOE/US": 0.0442140364247567,
+      "Pakistani": 0.02381690721611665,
+      "Philippine": 0.2660330506354681,
+      "Russian": 0.0288994528511203,
+      "SABIS (UK/US)": 0.19125432355879177,
+      "UK": 0.19408816544501004,
+      "UK/IB": 0.12576880630334378,
+      "US": 0.0951769646558772,
+      "US/IB": 0.11515128285018604
+    },
+    "nearest_metro_distance_km_x": {
+      "Canadian": 3.6420937851108177,
+      "French": 4.379918218427125,
+      "French/IB": 5.6745507423633255,
+      "IAT": 1.3242010228961962,
+      "IB": 3.2199893592279407,
+      "IB /Swiss ": 0.7015389468197258,
+      "Indian": 1.328698471552547,
+      "Indian(CBSE)": 2.4594797544189695,
+      "Indian(CISCE)": 8.173639466409035,
+      "Indian(ICSE)": 5.141783916299837,
+      "Iranian": 0.7595187454229576,
+      "Japanese": 0.6521181745839112,
+      "Kindergarten": 1.7715608529602318,
+      "MOE": 2.178177820255748,
+      "MOE/US": 4.111544838815899,
+      "Pakistani": 0.7007529290798203,
+      "Philippine": 1.977699131630247,
+      "Russian": 2.814827991793085,
+      "SABIS (UK/US)": 0.625335182262753,
+      "UK": 3.3737946736048707,
+      "UK/IB": 4.6102093636867965,
+      "US": 2.23763038182597,
+      "US/IB": 1.6195387134834407
+    },
+    "nearest_community_distance_km": {
+      "Canadian": 3.4680648280996214,
+      "French": 4.544025501901274,
+      "French/IB": 5.404913506443044,
+      "IAT": 3.7336292901721766,
+      "IB": 5.558933957317668,
+      "IB /Swiss ": 2.8680740575137134,
+      "Indian": 4.149481183282764,
+      "Indian(CBSE)": 3.003293743103207,
+      "Indian(CISCE)": 5.508576211757915,
+      "Indian(ICSE)": 4.058265301573474,
+      "Iranian": 2.2941224419395083,
+      "Japanese": 2.0999605604881806,
+      "Kindergarten": 1.8505976522453051,
+      "MOE": 2.6995669400991678,
+      "MOE/US": 3.0124764744653727,
+      "Pakistani": 2.566255171706911,
+      "Philippine": 4.060416246081006,
+      "Russian": 5.136757091705322,
+      "SABIS (UK/US)": 9.150342206444336,
+      "UK": 4.673239459084404,
+      "UK/IB": 3.895590935595853,
+      "US": 3.488025226759392,
+      "US/IB": 0.4970076186336494
+    },
+    "comprehensive_accessibility_score": {
+      "Canadian": 4.7,
+      "French": 4.85,
+      "French/IB": 5.0,
+      "IAT": 4.7,
+      "IB": 4.76375,
+      "IB /Swiss ": 4.7,
+      "Indian": 4.85,
+      "Indian(CBSE)": 4.4534782608695656,
+      "Indian(CISCE)": 5.0,
+      "Indian(ICSE)": 4.7,
+      "Iranian": 4.57,
+      "Japanese": 4.7,
+      "Kindergarten": 4.550000000000001,
+      "MOE": 4.418,
+      "MOE/US": 4.52,
+      "Pakistani": 4.550000000000001,
+      "Philippine": 4.85,
+      "Russian": 5.0,
+      "SABIS (UK/US)": 4.85,
+      "UK": 4.733387096774194,
+      "UK/IB": 4.625,
+      "US": 4.55,
+      "US/IB": 3.83
+    },
+    "final_urban_score": {
+      "Canadian": 3.0536,
+      "French": 3.2555,
+      "French/IB": 3.186,
+      "IAT": 3.2092,
+      "IB": 3.1435,
+      "IB /Swiss ": 3.2596,
+      "Indian": 3.3148,
+      "Indian(CBSE)": 3.026,
+      "Indian(CISCE)": 3.1672,
+      "Indian(ICSE)": 3.1269,
+      "Iranian": 3.1839999999999997,
+      "Japanese": 3.268,
+      "Kindergarten": 3.1130000000000004,
+      "MOE": 3.0436400000000003,
+      "MOE/US": 2.9246,
+      "Pakistani": 3.176,
+      "Philippine": 3.2590000000000003,
+      "Russian": 3.3044,
+      "SABIS (UK/US)": 3.3289999999999997,
+      "UK": 3.168122580645161,
+      "UK/IB": 3.073866666666667,
+      "US": 3.078523076923077,
+      "US/IB": 2.6884
+    }
+  },
+  "top_healthcare_access": [
+    {
+      "school_name": "Greenwood International School",
+      "nearest_healthcare_distance_km_x": 0.0039270251611087
+    },
+    {
+      "school_name": "K12 International Academy",
+      "nearest_healthcare_distance_km_x": 0.0060307747478722
+    },
+    {
+      "school_name": "Pakistan Education Academy",
+      "nearest_healthcare_distance_km_x": 0.0073506630485379
+    },
+    {
+      "school_name": "Dubai National School - Al Twar",
+      "nearest_healthcare_distance_km_x": 0.0126716441170397
+    },
+    {
+      "school_name": "Al Mizhar American Academy Private School for Girls",
+      "nearest_healthcare_distance_km_x": 0.0129790101723146
+    },
+    {
+      "school_name": "Arab Unity School",
+      "nearest_healthcare_distance_km_x": 0.013688703864486
+    },
+    {
+      "school_name": "Safa Community School",
+      "nearest_healthcare_distance_km_x": 0.0149093334716696
+    },
+    {
+      "school_name": "The Indian High School",
+      "nearest_healthcare_distance_km_x": 0.0174338087254843
+    },
+    {
+      "school_name": "GEMS International School - Al Khail",
+      "nearest_healthcare_distance_km_x": 0.0179261806536519
+    },
+    {
+      "school_name": "American International School",
+      "nearest_healthcare_distance_km_x": 0.0196565877910611
+    }
+  ],
+  "top_metro_access": [
+    {
+      "school_name": "GEMS Winchester School",
+      "nearest_metro_distance_km_x": 0.1270028386083805
+    },
+    {
+      "school_name": "The Indian High School - Branch",
+      "nearest_metro_distance_km_x": 0.1301958817727926
+    },
+    {
+      "school_name": "The Kindergarten Starters",
+      "nearest_metro_distance_km_x": 0.183710341945827
+    },
+    {
+      "school_name": "Al Eman Private School",
+      "nearest_metro_distance_km_x": 0.195850493800016
+    },
+    {
+      "school_name": "Pakistan Education Academy",
+      "nearest_metro_distance_km_x": 0.2205757304098616
+    },
+    {
+      "school_name": "Dubai International School - Al Garhoud",
+      "nearest_metro_distance_km_x": 0.2228745441445464
+    },
+    {
+      "school_name": "English Language Private School",
+      "nearest_metro_distance_km_x": 0.2639135451186655
+    },
+    {
+      "school_name": "Towheed Iranian School for Girls",
+      "nearest_metro_distance_km_x": 0.3334370678640572
+    },
+    {
+      "school_name": "Adab Iranian Private School - Boys",
+      "nearest_metro_distance_km_x": 0.3523910115457023
+    },
+    {
+      "school_name": "Adab Iranian Private School - Girls",
+      "nearest_metro_distance_km_x": 0.3524317632139666
+    }
+  ],
+  "top_urban_scores": [
+    {
+      "school_name": "The Winchester School",
+      "final_urban_score": 3.42
+    },
+    {
+      "school_name": "Delhi Private School Dubai",
+      "final_urban_score": 3.4188
+    },
+    {
+      "school_name": "Jebel Ali Primary School",
+      "final_urban_score": 3.3944
+    },
+    {
+      "school_name": "Emirates International School - Meadows",
+      "final_urban_score": 3.388
+    },
+    {
+      "school_name": "The International School of Choueifat - DIP",
+      "final_urban_score": 3.3876
+    },
+    {
+      "school_name": "Dovecote Green Primary ",
+      "final_urban_score": 3.3844
+    },
+    {
+      "school_name": "Credence High School ",
+      "final_urban_score": 3.356
+    },
+    {
+      "school_name": "Islamic School for Education and Training",
+      "final_urban_score": 3.3492
+    },
+    {
+      "school_name": "Nibras International School",
+      "final_urban_score": 3.348
+    },
+    {
+      "school_name": "Springdales School",
+      "final_urban_score": 3.3352
+    }
+  ],
+  "geographic_clusters": {
+    "cluster_0": {
+      "school_count": 58,
+      "avg_healthcare_distance": 0.10452989683742646,
+      "avg_metro_distance": 1.0335339678618,
+      "avg_urban_score": 3.0760965517241385,
+      "center_lat": 25.263116034482753,
+      "center_lon": 55.34829198275862
+    },
+    "cluster_1": {
+      "school_count": 32,
+      "avg_healthcare_distance": 0.1265073811398336,
+      "avg_metro_distance": 2.276473158867465,
+      "avg_urban_score": 3.1671,
+      "center_lat": 25.16793525,
+      "center_lon": 55.24603359375
+    },
+    "cluster_2": {
+      "school_count": 32,
+      "avg_healthcare_distance": 0.17332504383364425,
+      "avg_metro_distance": 3.474408370181833,
+      "avg_urban_score": 3.1928,
+      "center_lat": 25.064749,
+      "center_lon": 55.1943536875
+    },
+    "cluster_3": {
+      "school_count": 38,
+      "avg_healthcare_distance": 0.22477539436696722,
+      "avg_metro_distance": 3.4373380947441263,
+      "avg_urban_score": 3.0848631578947368,
+      "center_lat": 25.236901263157893,
+      "center_lon": 55.41556602631578
+    },
+    "cluster_4": {
+      "school_count": 10,
+      "avg_healthcare_distance": 0.28120581653031984,
+      "avg_metro_distance": 11.442976801626813,
+      "avg_urban_score": 3.16268,
+      "center_lat": 25.1241083,
+      "center_lon": 55.3800119
+    }
+  },
+  "accessibility_patterns": {
+    "healthcare_metro_correlation": 0.15742443463176478,
+    "healthcare_community_correlation": 0.15191818364568022,
+    "metro_community_correlation": 0.5179256532674127,
+    "accessibility_score_correlation": 0.8650558628164234
+  }
+}

@@ -1,0 +1,11 @@
+metric,value,unit
+Total Schools,170.0,Schools
+Total Communities,226.0,Communities
+Total Healthcare Facilities,2312.0,Facilities
+Total Metro Stations,540.0,Stations
+Average Healthcare Distance,0.15888761627629402,km
+Average Metro Distance,2.876598792247687,km
+Average Community Distance,3.948899833181729,km
+Schools with Excellent Healthcare Access,163.0,Schools
+Schools with Excellent Metro Access,47.0,Schools
+Schools with Excellent Community Access,22.0,Schools
